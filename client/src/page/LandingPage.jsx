@@ -2,6 +2,7 @@ import Features from "../components/Features";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import Navbar from "../components/Navbar";
+import WhyInteloop from "../components/WhyInteloop";
 
 const LandingPage = () => {
     return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
             <Hero />
             <Features />
             <HowItWorks />
+            <WhyInteloop />
         </div>
     )
 }
