@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,8 +32,13 @@ const Navbar = () => {
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outlined">Login</Button>
-            <Button variant="filled">Register</Button>
+            <Link to="/login">
+              <Button variant="outlined">Login</Button>
+            </Link>
+
+            <Link to="/signup">
+              <Button variant="filled">Signup</Button>
+            </Link>
           </div>
 
           {/* Mobile Toggle */}
