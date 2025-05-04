@@ -1,8 +1,12 @@
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-require("dotenv").config();
+import express from "express";
+import cors from "cors";
+import bodyParser from "body-parser";
+import dotEnv from "dotenv";
 
+// Load env variables
+dotEnv.config();
+
+// Intialize an express app instance
 const app = express();
 
 // Middleware
