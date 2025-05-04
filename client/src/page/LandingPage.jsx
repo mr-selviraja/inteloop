@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import Navbar from "../components/Navbar";
 import WhyInteloop from "../components/WhyInteloop";
+import BookDemo from "../components/BookDemo";
 
 const LandingPage = () => {
     return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
             <HowItWorks />
             <WhyInteloop />
             <DemoSection />
+            <BookDemo />
         </div>
     )
 }

@@ -24,7 +24,6 @@ const DemoSection = () => {
               </div>
               
               <Button 
-                variant="outline" 
                 className="hover:cursor-pointer bg-white rounded-full w-16 h-16 flex items-center justify-center hover:scale-105 transition-transform shadow-lg"
               >
                 <FaPlay className="text-teal-500" />
