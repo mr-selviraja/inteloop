@@ -1,3 +1,4 @@
+import DemoSection from "../components/DemoSection";
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <Features />
             <HowItWorks />
             <WhyInteloop />
+            <DemoSection />
         </div>
     )
 }
