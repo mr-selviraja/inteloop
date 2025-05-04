@@ -34,11 +34,11 @@ const Navbar = () => {
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/login">
-              <Button variant="outlined">Login</Button>
+              <Button size='sm' variant="outlined">Login</Button>
             </Link>
 
             <Link to="/signup">
-              <Button variant="filled">Signup</Button>
+              <Button size='sm' variant="filled">Signup</Button>
             </Link>
           </div>
 
