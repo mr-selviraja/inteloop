@@ -2,6 +2,8 @@ import Button from './Button'
 import { Link } from 'react-router-dom'
 import dashbaordPreviewImg from "../assets/dashboard-preview.png"
 import dotsPattern from "../assets/dots-pattern.png"
+import { IoRocket } from "react-icons/io5"
+import { RiVideoFill } from "react-icons/ri";
 
 function Hero() {
   return (
@@ -22,10 +24,16 @@ function Hero() {
         {/* Button Group */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link to="/signup" className="w-fit">
-            <Button variant="primaryFilled">Get Started</Button>
+            <Button variant="primaryFilled">
+                <IoRocket />
+                Get Started
+            </Button>
           </Link>
-          <Link to="/" className="w-fit">
-            <Button variant="primaryOutlined">Request Demo</Button>
+          <Link to="/book-demo" className="w-fit">
+            <Button variant="primaryOutlined">
+                <RiVideoFill />
+                Request Demo
+            </Button>
           </Link>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Button = ({ variant = 'filled', children, ...props }) => {
     };
   
     return (
-      <button className={`${baseStyles} ${variants[variant]}`} {...props}>
+      <button className={`${baseStyles} ${variants[variant]} flex items-center gap-2`} {...props}>
         {children}
       </button>
     );
