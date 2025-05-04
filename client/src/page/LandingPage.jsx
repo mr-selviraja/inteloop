@@ -1,3 +1,4 @@
+import Features from "../components/Features";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -6,6 +7,7 @@ const LandingPage = () => {
         <div className="font-sora text-sm">
             <Navbar />
             <Hero />
+            <Features />
         </div>
     )
 }
