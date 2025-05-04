@@ -5,6 +5,7 @@ import HowItWorks from "../components/HowItWorks";
 import Navbar from "../components/Navbar";
 import WhyInteloop from "../components/WhyInteloop";
 import BookDemo from "../components/BookDemo";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
     return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
             <WhyInteloop />
             <DemoSection />
             <BookDemo />
+            <Footer />
         </div>
     )
 }
