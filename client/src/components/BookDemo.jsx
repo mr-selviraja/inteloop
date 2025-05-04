@@ -1,3 +1,4 @@
+// src/components/BookDemo.js
 import { useState } from 'react';
 import Button from './Button';
 import { FiCalendar, FiMail } from 'react-icons/fi';
@@ -15,7 +16,6 @@ const BookDemo = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here (API call, toast, etc.)
     console.log('Booking Demo:', formData);
   };
 
@@ -24,15 +24,15 @@ const BookDemo = () => {
       <div className="container bg-teal-500 w-[70vw] mx-auto rounded-xl">
         <div className="bg-gradient-to-r from-primary/90 to-primary rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-pattern opacity-10"></div>
-          
-          <div className="relative z-10 max-w-xl mx-auto">
+
+          <div className="relative max-w-xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-white font-sora leading-tight">
               Book a Free Demo
             </h2>
             <p className="mt-4 text-lg text-white/90 font-sora">
               See how Inteloop can streamline your feedback workflow in a personalized walkthrough.
             </p>
-            
+
             <form 
               onSubmit={handleSubmit} 
               className="mt-8 space-y-4"
