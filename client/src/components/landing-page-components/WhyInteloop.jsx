@@ -50,7 +50,7 @@ const WhyInteloop = () => {
     ];
 
     return (
-        <section className="bg-gray-50 py-28 px-4">
+        <section className="bg-gray-50 py-28 px-4" id="whyus">
             <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Why Inteloop</h2>
             <p className="text-md text-gray-600 max-w-xl mx-auto mb-12 text-center">
                 Solve the most frustrating feedback management challenges with our smart platform

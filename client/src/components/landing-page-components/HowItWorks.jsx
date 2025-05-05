@@ -33,7 +33,7 @@ const HowItWorksSteps = [
 
 function HowItWorks() {
   return (
-    <section className="relative max-w-4xl mx-auto px-4 py-28">
+    <section className="relative max-w-4xl mx-auto px-4 py-28" id="howitworks">
       <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">How It Works</h2>
       <p className="text-md text-gray-600 max-w-xl mx-auto mb-12 text-center">
         A powerful workflow to transform scattered feedback into actionable insights

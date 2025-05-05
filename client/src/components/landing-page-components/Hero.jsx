@@ -29,12 +29,20 @@ function Hero() {
                 Get Started
             </Button>
           </Link>
-          <Link to="/book-demo" className="w-fit">
+          <a
+            className="w-fit"
+            onClick={() => {
+              const el = document.getElementById("book-demo");
+              if (el) {
+                el.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             <Button variant="primaryOutlined">
-                <RiVideoFill />
-                Request Demo
+              <RiVideoFill />
+              Request Demo
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
 

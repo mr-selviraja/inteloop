@@ -23,7 +23,17 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center space-x-10">
             {links.map((link) => (
-              <a key={link.href} href={link.href} className="text-gray-700 hover:text-gray-900">
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  const section = document.querySelector(link.href);
+                  section?.scrollIntoView({ behavior: 'smooth' });
+                  setMenuOpen(false); // Also close mobile menu if open
+                }}
+                className="text-gray-700 hover:text-gray-900"
+              >
                 {link.label}
               </a>
             ))}

@@ -19,7 +19,7 @@ const BookDemo = () => {
   };
 
   return (
-    <section className="py-16 md:py-24 px-4">
+    <section className="py-16 md:py-24 px-4" id='book-demo'>
       <div className="container bg-violet-600 w-[70vw] mx-auto rounded-xl">
         <div className="bg-gradient-to-r from-primary/90 to-primary rounded-2xl p-8 md:p-12 text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-pattern opacity-10"></div>
