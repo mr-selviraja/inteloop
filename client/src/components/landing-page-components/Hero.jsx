@@ -1,7 +1,7 @@
-import Button from './Button'
+import Button from '../Button'
 import { Link } from 'react-router-dom'
-import dashbaordPreviewImg from "../assets/dashboard-preview.png"
-import dotsPattern from "../assets/dots-pattern.png"
+import dashbaordPreviewImg from "../../assets/dashboard-preview.png"
+import dotsPattern from "../../assets/dots-pattern.png"
 import { IoRocket } from "react-icons/io5"
 import { RiVideoFill } from "react-icons/ri";
 

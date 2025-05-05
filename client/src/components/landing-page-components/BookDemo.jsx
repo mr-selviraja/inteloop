@@ -1,6 +1,6 @@
 // src/components/BookDemo.js
 import { useState } from 'react';
-import Button from './Button';
+import Button from '../Button';
 import { FiCalendar, FiMail } from 'react-icons/fi';
 
 const BookDemo = () => {

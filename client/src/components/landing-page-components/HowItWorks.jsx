@@ -1,8 +1,8 @@
 import React from 'react';
-import collectFeedbackImg from "../assets/collect-feedback.svg"
-import organizeAndTagImg from "../assets/organize-and-tag.svg"
-import aiAnalysisImg from "../assets/ai-analysis.svg"
-import takeActionImg from "../assets/take-action.svg"
+import collectFeedbackImg from "../../assets/collect-feedback.svg"
+import organizeAndTagImg from "../../assets/organize-and-tag.svg"
+import aiAnalysisImg from "../../assets/ai-analysis.svg"
+import takeActionImg from "../../assets/take-action.svg"
 
 const HowItWorksSteps = [
   {

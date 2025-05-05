@@ -1,4 +1,4 @@
-import Button from "./Button"
+import Button from "../Button"
 import { FaPlay } from "react-icons/fa"
 import { LuLightbulb, LuFileImage } from "react-icons/lu"
 
