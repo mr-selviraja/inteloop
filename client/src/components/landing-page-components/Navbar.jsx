@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
+import inteloopLogo from "../../assets/inteloop-logo.svg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <Link to='/' className="flex-shrink-0 text-xl font-bold text-violet-600">
-            MyLogo
+            <img className='w-25' src={inteloopLogo} alt='inteloop logo' />
           </Link>
 
           <div className="hidden md:flex items-center space-x-10">
