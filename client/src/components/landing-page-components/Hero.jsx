@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section
       style={{ backgroundImage: `url(${dotsPattern})` }}
-      className="bg-teal-50 bg-repeat pt-28 sm:pt-38 flex flex-col items-center justify-center min-h-[calc(100vh-64px)] text-center px-4 pb-24"
+      className="bg-violet-50 bg-repeat pt-28 sm:pt-38 flex flex-col items-center justify-center min-h-[calc(100vh-64px)] text-center px-4 pb-24"
     >
       <div className="max-w-3xl">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">

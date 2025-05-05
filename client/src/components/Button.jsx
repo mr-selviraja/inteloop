@@ -1,4 +1,5 @@
 const Button = ({
+  type = 'button',
   variant = 'filled',
   size = 'md',
   fullWidth = false,
@@ -9,8 +10,8 @@ const Button = ({
   const baseStyles = 'font-medium transition-colors duration-200 hover:cursor-pointer flex items-center justify-center gap-2';
 
   const variants = {
-    primaryFilled: 'bg-teal-500 text-white hover:bg-teal-600',
-    primaryOutlined: 'bg-white border border-teal-500 text-teal-500 hover:bg-gray-50 hover:text-teal',
+    primaryFilled: 'bg-violet-600 text-white hover:bg-violet-500',
+    primaryOutlined: 'bg-white border border-violet-600 text-violet-600 hover:bg-gray-50 hover:text-violet',
     filled: 'bg-gray-900 text-white hover:bg-gray-700',
     outlined: 'border border-gray-500 text-gray-500 hover:bg-gray-50 hover:text-gray',
   };
@@ -33,6 +34,7 @@ const Button = ({
 
   return (
     <button
+      type={type}
       className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${radiusClasses[radius] || radius} ${widthClass}`}
       {...props}
     >

@@ -3,7 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import axiosInstance from '../api/axiosInstance';
 import FormInput from '../components/FormInput';
-import illustration from '../assets/collect-feedback.svg'; // Illustration image for visual UI
+import signupIllustration from '../assets/sign-up-illustration.svg';
+import { Link } from 'react-router-dom';
+import { FaArrowLeftLong } from "react-icons/fa6";
+import Button from '../components/Button';
 
 const SignupPage = () => {
   // State variables for form inputs
@@ -36,21 +39,21 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-violet-600 flex items-center justify-center px-4 py-8">
       <div className="bg-white shadow-xl rounded-2xl overflow-hidden w-full max-w-5xl flex flex-col md:flex-row animate-fadeIn">
 
-        {/* Left panel with illustration */}
-        <div className="md:w-1/2 bg-indigo-600 text-white flex flex-col justify-center items-center p-10">
-          <img src={illustration} alt="Signup Visual" className="w-2/3 mb-6" />
-          <h2 className="text-3xl font-bold">Create Your Account</h2>
+        {/* Left panel with signupIllustration */}
+        <div className="md:w-1/2 bg-gray-50 flex flex-col justify-center items-center p-10">
+          <img src={signupIllustration} alt="Signup Visual" className="w-2/3 mb-6" />
+          <h2 className="text-2xl font-bold">Create Your Account</h2>
           <p className="text-center mt-2 text-sm max-w-xs">
-            Sign up to get started with your personalized dashboard.
+            Sign up to get started with your product dashboard
           </p>
         </div>
 
         {/* Right panel with signup form */}
         <div className="md:w-1/2 p-10">
-          <h2 className="text-3xl font-semibold text-gray-800 mb-6">Sign Up</h2>
+          <h2 className="text-lg text-gray-800 mb-6 font-bold">Sign Up</h2>
           <form onSubmit={handleSubmit} className="space-y-5">
             <FormInput
               label="Email"
@@ -73,12 +76,23 @@ const SignupPage = () => {
               onChange={(e) => setOrgName(e.target.value)}
               placeholder="e.g. ABC Foundation"
             />
-            <button
+            <Button
               type="submit"
-              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 rounded-lg transition duration-300"
+              variant="primaryFilled"
+              size="md"
+              radius="lg"
+              fullWidth
             >
               Sign Up
-            </button>
+            </Button>
+
+            <Link to="/" className='flex gap-2 items-center text-violet-600'>
+              <FaArrowLeftLong />
+
+              <span className="text-sm font-medium">
+                Back to Home
+              </span>
+            </Link>
           </form>
         </div>
       </div>

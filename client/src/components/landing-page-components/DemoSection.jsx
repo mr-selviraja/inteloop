@@ -26,12 +26,12 @@ const DemoSection = () => {
               <Button 
                 className="hover:cursor-pointer bg-white rounded-full w-16 h-16 flex items-center justify-center hover:scale-105 transition-transform shadow-lg"
               >
-                <FaPlay className="text-teal-500" />
+                <FaPlay className="text-violet-600" />
               </Button>
             </div>
 
             {/* Overlay items to show UI elements */}
-            <div className="absolute bottom-8 left-8 bg-teal-500 text-white backdrop-blur-sm p-4 rounded-lg shadow-lg border border-gray-100 max-w-xs hidden md:block">
+            <div className="absolute bottom-8 left-8 bg-violet-600 text-white backdrop-blur-sm p-4 rounded-lg shadow-lg border border-gray-100 max-w-xs hidden md:block">
               <div className="flex items-start gap-3">
                 <div className="p-2 bg-primary/10 rounded-full">
                   <LuLightbulb size={20} className="text-primary" />
@@ -45,7 +45,7 @@ const DemoSection = () => {
               </div>
             </div>
 
-            <div className="absolute top-8 right-8 bg-teal-500 text-white backdrop-blur-sm p-3 rounded-lg shadow-lg border border-gray-100 hidden md:block">
+            <div className="absolute top-8 right-8 bg-violet-600 text-white backdrop-blur-sm p-3 rounded-lg shadow-lg border border-gray-100 hidden md:block">
               <div className="flex items-center gap-2">
                 <LuFileImage size={18} className="text-primary" />
                 <span className="text-xs font-medium font-sora">3 Screenshots Attached</span>

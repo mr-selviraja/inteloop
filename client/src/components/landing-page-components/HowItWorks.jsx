@@ -56,7 +56,7 @@ function HowItWorks() {
             {/* Card */}
             <article className="sm:w-1/2 sm:px-6">
               <div className="bg-gray-50 p-4 rounded-lg border border-gray-300 text-center sm:text-left p-10">
-                <h3 className="text-xl font-semibold text-teal-500">{step.title}</h3>
+                <h3 className="text-xl font-semibold">{step.title}</h3>
                 <p className="text-gray-600 mt-2">{step.description}</p>
               </div>
             </article>
@@ -65,10 +65,10 @@ function HowItWorks() {
             <img className='hidden sm:block w-40 mx-10' src={step.img} alt="step image" />
 
             {/* Mobile-only dot */}
-            <div className="sm:hidden w-2 h-2 bg-teal-600 rounded-full absolute left-1/2 transform -translate-x-1/2 mt-[-26px] z-10" />
+            <div className="sm:hidden w-2 h-2 bg-violet-600 rounded-full absolute left-1/2 transform -translate-x-1/2 mt-[-26px] z-10" />
 
             {/* Desktop-only dot with number */}
-            <div className="hidden sm:flex justify-center items-center w-5 h-5 rounded-full bg-teal-600 text-white font-bold z-10 border-4 border-white shadow-md absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2">
+            <div className="hidden sm:flex justify-center items-center w-5 h-5 rounded-full bg-violet-600 text-white font-bold z-10 border-4 border-white shadow-md absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2">
               
             </div>
           </div>

@@ -27,21 +27,21 @@ const CheckItem = ({ label }) => {
 const WhyInteloop = () => {
     const reasons = [
         {
-            icon: <FiMessageSquare className="text-teal-600" size={32} />,
+            icon: <FiMessageSquare className="text-violet-600" size={32} />,
             title: 'Scattered Feedback',
             description:
                 'No more hunting through multiple tools, emails, and channels to find feedback. Inteloop brings everything into one central hub',
             features: ['Integrated channels', 'Smart organization'],
         },
         {
-            icon: <IoSearch className="text-teal-600" size={32} />,
+            icon: <IoSearch className="text-violet-600" size={32} />,
             title: 'Manual Analysis',
             description:
                 'Stop spending hours organizing feedback into themes and insights. Let AI do the heavy lifting for you',
             features: ['AI Powered Insights', 'Theme Detection'],
         },
         {
-            icon: <FaRegLightbulb className="text-teal-600" size={32} />,
+            icon: <FaRegLightbulb className="text-violet-600" size={32} />,
             title: 'No Visual Context',
             description:
                 'Feedback without visual context is hard to understand. Inteloop makes it easy to attach screenshots right with feedback.',
@@ -63,7 +63,7 @@ const WhyInteloop = () => {
                         className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow"
                     >
                         <div className="flex items-center gap-2 mb-3">
-                            <span className="bg-teal-50 p-2 rounded-md">
+                            <span className="bg-violet-50 p-2 rounded-md">
                                 {item.icon}
                             </span>
                             <h3 className="text-xl font-semibold text-gray-900 font-sora">

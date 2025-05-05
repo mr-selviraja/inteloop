@@ -7,32 +7,32 @@ import { LuBrain } from "react-icons/lu"
 
 const features = [
   {
-    icon: <BiLayer className="text-3xl text-teal-600" />,
+    icon: <BiLayer className="text-3xl text-violet-600" />,
     title: 'Multi-Product Support',
     description: 'Manage feedback separately across multiple products within your organization.',
   },
   {
-    icon: <RiRobot2Line className="text-3xl text-teal-600" />,
+    icon: <RiRobot2Line className="text-3xl text-violet-600" />,
     title: 'AI Analysis',
     description: 'Leverage AI to analyze feedback and identify common themes and patterns.',
   },
   {
-    icon: <MdOutlineSpaceDashboard className="text-3xl text-teal-600" />,
+    icon: <MdOutlineSpaceDashboard className="text-3xl text-violet-600" />,
     title: 'Insight Dashboard',
     description: 'View comprehensive insights and track feedback trends over time.',
   },
   {
-    icon: <TbUserShield className="text-3xl text-teal-600" />,
+    icon: <TbUserShield className="text-3xl text-violet-600" />,
     title: 'Role-Based Access',
     description: 'Control who can view, submit, and manage feedback with custom roles.',
   },
   {
-    icon: <IoMdCloudOutline className="text-3xl text-teal-600" />,
+    icon: <IoMdCloudOutline className="text-3xl text-violet-600" />,
     title: 'Secure Storage',
     description: "Inteloop cannot access your Product's feedback and so your data is safe.",
   },
   {
-    icon: <LuBrain className="text-3xl text-teal-600" />,
+    icon: <LuBrain className="text-3xl text-violet-600" />,
     title: 'Clean & Intuitive UI',
     description: 'Enjoy an intuitive interface designed for efficiency and ease of use.',
   },
@@ -53,7 +53,7 @@ function Features() {
             className="bg-white p-6 rounded-lg shadow hover:shadow-md transition-shadow text-left"
           >
             <div className="flex items-center gap-3 mb-4">
-                <span className="bg-teal-50 p-2 rounded-md">
+                <span className="bg-violet-50 p-2 rounded-md">
                     {feature.icon}
                 </span>
                 <h3 className="text-xl font-semibold text-gray-800">{feature.title}</h3>
