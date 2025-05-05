@@ -39,7 +39,7 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-violet-600 flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-violet-600 flex items-center justify-center px-4 py-8 font-inter">
       <div className="bg-white shadow-xl rounded-2xl overflow-hidden w-full max-w-5xl flex flex-col md:flex-row animate-fadeIn">
 
         {/* Left panel with signupIllustration */}
